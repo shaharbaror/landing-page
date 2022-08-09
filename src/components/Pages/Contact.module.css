@@ -1,0 +1,98 @@
+.card {
+    margin-top:35%;
+    margin-left: 20%;
+    position:fixed;
+    z-index: 10;
+    width: 1100px;
+    height:120px;
+    padding-top: 5px;
+
+}
+
+.contact-us {
+    margin-left: 42%;
+    font-weight: 600;
+    font-size: large;
+}
+
+.form {
+    padding: 1%;
+    display: flex;
+}
+
+.text {
+   
+    font-weight: 700;
+}
+
+.invalid-input {
+    background-color: lightcoral;
+    border-color: red;
+}
+.invalid-text {
+    color:red;
+}
+
+@media (max-width:500px) {
+    .card {
+        margin-top:150%;
+        margin-left: 12%;
+        text-align: center;
+        position:fixed;
+        z-index: 10;
+        width: 300px;
+        height:170px;
+        padding-top: 0;
+    
+    }
+    .submit{
+        margin-top: 5%;
+    }
+    .form {
+        display: block;
+    }
+    .contact-us {
+        margin: auto;
+    }
+}
+
+.form input {
+    border: none;
+    border-bottom: solid;
+}
+
+
+.submit {
+    margin-top: 5px;
+    width: 150px;
+    height:40px;
+    border-radius: 15px;
+    border-color: greenyellow;
+    background-color: green;
+    color:white;
+    transition-duration: 100ms;
+    cursor: pointer;
+}
+
+.submit:hover {
+   width: 160px;
+   height:45px;
+    background-color: rgba(0, 128, 0,0.8);
+}
+
+.inputD {
+    margin-top: 1%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+/*
+.cancel {
+    background-color: white;
+    border:none;
+    font-weight: 600;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}*/
